@@ -1,0 +1,5 @@
+<p>reminder works!</p>
+
+<p>Aktuell sind {{(reminderService.getReminderList() | async)?.length}} Reminder gespeichert.</p>
+
+<app-reminder-component *ngFor="let c of reminderService.getReminderList() | async" [reminder] = "c"></app-reminder-component>

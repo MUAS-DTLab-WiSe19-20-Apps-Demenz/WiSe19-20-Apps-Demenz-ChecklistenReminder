@@ -5,9 +5,11 @@ import { AppComponent } from './app.component';
 import {RouterModule, Routes} from '@angular/router';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ReminderComponent } from './reminder/reminder.component';
+import { ReminderComponentComponent } from './reminder-component/reminder-component.component';
 
 const appRoutes: Routes = [
-  // { path: 'Erinnerungen', component: ReminderComponent },
+  { path: 'Erinnerungen', component: ReminderComponent },
   // { path: 'Checklisten', component: ChecklistComponent },
   // { path: 'Notfallkontakte', component: EmergencyContactsComponent },
   { path: 'MainMenu', component: MainMenuComponent},
@@ -19,7 +21,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     MainMenuComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ReminderComponent,
+    ReminderComponentComponent
   ],
   imports: [
     BrowserModule,
