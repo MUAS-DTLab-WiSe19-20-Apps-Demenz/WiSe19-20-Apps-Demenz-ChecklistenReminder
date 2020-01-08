@@ -1,5 +1,9 @@
-<h1>{{reminder.title}} (#{{reminder.id}})</h1>
-<p>{{reminder.date}}</p>
-<p>{{reminder.description}}</p>
-<p>{{reminder.location}}</p>
-<p><br></p>
+<button class="reminder-preview-button">
+    <div class="reminder-preview-button-reminder">
+        <h2>{{reminder.title}}</h2>
+        <p>{{reminder.date | date:'dd.mm.yyyy - hh:mm'}}</p>
+    </div>
+    <div class="reminder-preview-button-box">
+        <input type="checkbox">
+    </div>
+</button>
