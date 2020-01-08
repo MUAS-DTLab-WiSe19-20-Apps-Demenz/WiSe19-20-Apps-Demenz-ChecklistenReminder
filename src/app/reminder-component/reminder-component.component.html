@@ -1,9 +1,11 @@
-<button class="reminder-preview-button">
-    <div class="reminder-preview-button-reminder">
-        <h2>{{reminder.title}}</h2>
-        <p>{{reminder.date | date:'dd.mm.yyyy - hh:mm'}}</p>
-    </div>
-    <div class="reminder-preview-button-box">
-        <input type="checkbox">
-    </div>
-</button>
+<a routerLink="/Erinnerungen/Detail/{{reminder.id}}">
+    <button class="reminder-preview-button">
+        <div class="reminder-preview-button-reminder">
+            <h2>{{reminder.title}}</h2>
+            <p>{{reminder.date | date:'dd.mm.yyyy - hh:mm'}}</p>
+        </div>
+        <div class="reminder-preview-button-box">
+            <input type="checkbox">
+        </div>
+    </button>
+</a>

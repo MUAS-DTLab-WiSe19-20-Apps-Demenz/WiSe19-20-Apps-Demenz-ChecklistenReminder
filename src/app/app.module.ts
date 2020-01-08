@@ -7,9 +7,11 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ReminderComponent } from './reminder/reminder.component';
 import { ReminderComponentComponent } from './reminder-component/reminder-component.component';
+import { DetailComponent } from './components/reminder/detail/detail.component';
 
 const appRoutes: Routes = [
   { path: 'Erinnerungen', component: ReminderComponent },
+  { path: 'Erinnerungen/Detail/:id', component: DetailComponent },
   // { path: 'Checklisten', component: ChecklistComponent },
   // { path: 'Notfallkontakte', component: EmergencyContactsComponent },
   { path: 'MainMenu', component: MainMenuComponent},
@@ -23,7 +25,8 @@ const appRoutes: Routes = [
     MainMenuComponent,
     PageNotFoundComponent,
     ReminderComponent,
-    ReminderComponentComponent
+    ReminderComponentComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
