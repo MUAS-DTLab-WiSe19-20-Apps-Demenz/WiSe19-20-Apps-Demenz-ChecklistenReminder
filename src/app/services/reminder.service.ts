@@ -24,9 +24,16 @@ export class ReminderService {
     c2.date = new Date('01/16/2013');
     c2.description = "Reminder two description";
     c2.location = "Reminder two location";
+
+    let c3 = new Reminder();
+    c3.title = "Reminder third test";
+    c3.date = new Date('01/16/2016');
+    c3.description = "Reminder third description";
+    c3.location = "Reminder third location";
     
     this.addReminder(c1);
     this.addReminder(c2);
+    this.addReminder(c3);
   }
 
   public addOrUpdateReminder(c : Reminder) : void {
