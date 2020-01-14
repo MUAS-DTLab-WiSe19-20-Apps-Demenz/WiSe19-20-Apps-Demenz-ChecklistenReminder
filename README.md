@@ -7,15 +7,15 @@ Diese Angular Anwendung ist für demenzerkrankte Personen entworfen. Ziel dieser
 Beispielsweise die Routine des Verlassens des Hauses.
 
 Eine Checkliste könnte folgendermaßen aussehen:
-	- Küchengeräte abstellen
-	- Fenster schließen
-	- Schlüssel einpacken
-	- Geldbeutel mitnehmen
+	* Küchengeräte abstellen
+	* Fenster schließen
+	* Schlüssel einpacken
+	* Geldbeutel mitnehmen
 	...
 	
 Ein Reminder für den Arztbesuch:
-    - Versichertenkarte mitnehmen
-    - Überweisungsschein mitnehmen
+    * Versichertenkarte mitnehmen
+    * Überweisungsschein mitnehmen
 	
 Diese Checkliste kann nun mit beliebig vielen Erinnerungen verknüpft werden und wird angezeigt, wenn die Erinnerung eintritt.
 
