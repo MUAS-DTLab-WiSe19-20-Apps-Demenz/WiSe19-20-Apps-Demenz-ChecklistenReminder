@@ -1,0 +1,19 @@
+
+<div class="button-wrapper">
+    <button class="buttons outer-button-left"><span>X</span></button>
+    <button class="buttons inner-button"><span>Erinnerungen Details</span></button>
+    <button class="buttons outer-button-right"><span>+</span></button>
+</div>
+
+<div class="reminder-div">
+    <h1>{{reminder.title}}</h1>
+    <hr />
+    <p>{{reminder.description}}</p>
+    <hr />
+    <p>{{reminder.location}}</p>
+    <hr />
+    <p>{{reminder.date | date:'dd.MM.yyyy - hh:mm'}}</p>
+</div>
+
+<a routerLink="/Erinnerungen"><button class="buttons outer-button-bottom"><span>Zurück</span></button></a>
+

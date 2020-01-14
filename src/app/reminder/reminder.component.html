@@ -1,0 +1,14 @@
+
+<div class="button-wrapper">
+    <button class="buttons outer-button-left"><span>X</span></button>
+    <button class="buttons inner-button"><span>Erinnerungen</span></button>
+    <button class="buttons outer-button-right"><span>+</span></button>
+
+</div>
+
+<!--<p>Aktuell sind {{(reminderService.getReminderList() | async)?.length}} Reminder gespeichert.</p>-->
+
+
+<app-reminder-component *ngFor="let c of reminderService.getReminderList() | async" [reminder] = "c"></app-reminder-component>
+<a routerLink="/"><button class="buttons outer-button-bottom"><span>Zurück</span></button></a>
+
