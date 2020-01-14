@@ -1,0 +1,5 @@
+<div layout="column" layout-align="center stretch">
+  <app-checklist *ngFor="let c of checklistService.getChecklists() | async" [checklist]="c"></app-checklist>
+</div>
+
+<button mat-fab (click)="createChecklist()"><mat-icon>add</mat-icon></button>
