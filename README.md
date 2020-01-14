@@ -1,6 +1,6 @@
 # ChecklistenReminder
 
-![App Uebersicht](<img src = "https://gitlab.lrz.de/swe1ws20192020/g5/blob/design/src/Bildschirmfoto%202020-01-14%20um%2020.05.26.png">)
+![App Uebersicht](src/Bildschirmfoto 2020-01-14 um 20.05.26.png "Übersicht")
 
 
 Diese Angular Anwendung ist für Demenzerkrankte Personen entworfen. Ziel dieser App ist es, vorgefertigte Checklisten zu speichern und diese dann mit Remindern zu verknüpfen. Dies soll es Demenzerkrankten oder Beteiligten ermöglichen, oft wiederholte Tätigkeiten im Vorraus zu speichern und bei bestimmten Aktivitäten aufzurufen. 
