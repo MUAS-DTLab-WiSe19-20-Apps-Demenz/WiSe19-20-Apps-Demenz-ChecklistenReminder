@@ -1,5 +1,6 @@
-<div style="background: cornflowerblue">
-  <div align="left" style="background: lightblue;font-weight: bold">{{checklist.name}}
+<div class="checklist">
+  <br>
+  <div class="headline">{{checklist.name}}
     <button mat-icon-button (click)="toggleEdit()"><mat-icon>edit</mat-icon></button>
     <button *ngIf="checklist.editing" mat-icon-button (click)="deleteList()"><mat-icon>delete</mat-icon></button>
   </div>
@@ -7,8 +8,9 @@
             [(ngModel)]="checklist.description"></textarea>
   <ng-template #notEditingDescr><p>{{checklist.description}}</p></ng-template>
   <p>Auslöser: {{checklist.trigger}}</p>
-  <div layout="column" layout-align="center start">
+  <div class="column">
     <app-checklist-entry *ngFor="let e of checklist.entries | async" [entry]="e" [checklist]="checklist"></app-checklist-entry>
     <button *ngIf="checklist.editing" mat-button (click)="addEntry()">Neues Element</button>
   </div>
+  <a routerLink="/"><button class="buttons outer-button-bottom"><span>Zurück</span></button></a>
 </div>

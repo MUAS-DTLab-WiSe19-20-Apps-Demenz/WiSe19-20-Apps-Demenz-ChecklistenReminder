@@ -1,4 +1,4 @@
-<div layout="column" layout-align="center stretch">
+<div class="overviewchecklist">
   <app-checklist *ngFor="let c of checklistService.getChecklists() | async" [checklist]="c"></app-checklist>
 </div>
 
