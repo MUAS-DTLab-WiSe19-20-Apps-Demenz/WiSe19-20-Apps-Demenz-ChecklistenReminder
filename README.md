@@ -3,7 +3,7 @@
 ![App Uebersicht](src/Bildschirmfoto 2020-01-14 um 20.05.26.png "Übersicht")
 
 
-Diese Angular Anwendung ist für Demenzerkrankte Personen entworfen. Ziel dieser App ist es, vorgefertigte Checklisten zu speichern und diese dann mit Remindern zu verknüpfen. Dies soll es Demenzerkrankten oder Beteiligten ermöglichen, oft wiederholte Tätigkeiten im Vorraus zu speichern und bei bestimmten Aktivitäten aufzurufen. 
+Diese Angular Anwendung ist für demenzerkrankte Personen entworfen. Ziel dieser App ist es, vorgefertigte Checklisten zu speichern und diese dann mit Remindern zu verknüpfen. Dies soll es Demenzerkrankten oder Beteiligten ermöglichen, oft wiederholte Tätigkeiten im Voraus zu speichern und bei bestimmten Aktivitäten aufzurufen. 
 Beispielsweise die Routine des Verlassens des Hauses.
 
 Eine Checkliste könnte folgendermaßen aussehen:
@@ -13,13 +13,15 @@ Eine Checkliste könnte folgendermaßen aussehen:
 	- Geldbeutel mitnehmen
 	...
 	
-Ein Reminder für den
+Ein Reminder für den Arztbesuch:
+    - Versichertenkarte mitnehmen
+    - Überweisungsschein mitnehmen
 	
 Diese Checkliste kann nun mit beliebig vielen Erinnerungen verknüpft werden und wird angezeigt, wenn die Erinnerung eintritt.
 
 ## Getting Started
 
-Auf der folgenden Website erhalten sie eine Kopie des Projekts : https://gitlab.lrz.de/swe1ws20192020/g5
+Auf der folgenden Website erhalten Sie eine Kopie des Projekts : https://gitlab.lrz.de/swe1ws20192020/g5
 
 
 ### Vorraussetzungen
