@@ -1,4 +1,4 @@
-## ChecklistenReminder
+### ChecklistenReminder
 
 ![App Uebersicht](src/Bildschirmfoto 2020-01-14 um 20.05.26.png "Übersicht")
 
@@ -19,7 +19,7 @@ Ein Reminder für den Arztbesuch:
 	
 Diese Checkliste kann nun mit beliebig vielen Erinnerungen verknüpft werden und wird angezeigt, wenn die Erinnerung eintritt.
 
-## Getting Started
+### Getting Started
 
 Auf der folgenden Website erhalten Sie eine Kopie des Projekts : https://gitlab.lrz.de/swe1ws20192020/g5
 
