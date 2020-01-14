@@ -1,4 +1,4 @@
-# ChecklistenReminder
+## ChecklistenReminder
 
 ![App Uebersicht](src/Bildschirmfoto 2020-01-14 um 20.05.26.png "Übersicht")
 
