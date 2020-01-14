@@ -1,27 +1,59 @@
-# G5
+# ChecklistenReminder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+![App Uebersicht](https://gitlab.lrz.de/swe1ws20192020/g5/blob/design/src/Bildschirmfoto%202020-01-14%20um%2020.05.26.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Diese Angular Anwendung ist für Demenzerkrankte Personen entworfen. Ziel dieser App ist es, vorgefertigte Checklisten zu speichern und diese dann mit Remindern zu verknüpfen. Dies soll es Demenzerkrankten oder Beteiligten ermöglichen, oft wiederholte Tätigkeiten im Vorraus zu speichern und bei bestimmten Aktivitäten aufzurufen. 
+Beispielsweise die Routine des Verlassens des Hauses.
 
-## Code scaffolding
+Eine Checkliste könnte folgendermaßen aussehen:
+	- Küchengeräte abstellen
+	- Fenster schließen
+	- Schlüssel einpacken
+	- Geldbeutel mitnehmen
+	...
+	
+Ein Reminder für den
+	
+Diese Checkliste kann nun mit beliebig vielen Erinnerungen verknüpft werden und wird angezeigt, wenn die Erinnerung eintritt.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+Auf der folgenden Website erhalten sie eine Kopie des Projekts : https://gitlab.lrz.de/swe1ws20192020/g5
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+### Vorraussetzungen
+	Als Benutzer:
+	Ein Endgerät mit Browser
+	
+	Als Entwickler:
+	AngularCLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Node.js 8.9 oder höher: https://nodejs.org
 
-## Running end-to-end tests
+    Visual Studio Code: https://code.visualstudio.com
+        Angular-Schule: Extension Pack für Visual Studio Code
+        Bei Bedarf kann auch eine andere IDE verwendet werden, z.B. IntelliJ.
+    
+	Git (und ggf. ein grafischer Client wie SourceTree oder GitExtensions)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### Installation
+
+Diese Anwendung läuft noch nicht über einen Webserver. 
+Im Browser wird localhost:4200/ aufgerufen.
+
+
+## Built With
+
+* [AngularCLI](https://cli.angular.io/) - The web framework used
+
+## Authors
+
+* ** Viet Phuoc Ho**
+* ** Benjamin  Hartwig**
+* ** Fabian Diener**
+* ** Johannes Jaeger**
+* ** Leonard Maier**
