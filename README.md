@@ -19,6 +19,15 @@ Ein Reminder für den Arztbesuch:
 	
 Diese Checkliste kann nun mit beliebig vielen Erinnerungen verknüpft werden und wird angezeigt, wenn die Erinnerung eintritt.
 
+
+## Authors
+
+* ** Viet Phuoc Ho**
+* ** Benjamin  Hartwig**
+* ** Fabian Diener**
+* ** Johannes Jaeger**
+* ** Leonard Maier**
+
 ### Getting Started
 
 Auf der folgenden Website erhalten Sie eine Kopie des Projekts : https://gitlab.lrz.de/swe1ws20192020/g5
