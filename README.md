@@ -15,6 +15,8 @@ Beispielsweise die Routine des Verlassens des Hauses.
 Ein Reminder für den Arztbesuch:
 * **Versichertenkarte mitnehmen**
 * **Überweisungsschein mitnehmen**
+
+![Reminder] (src/Bildschirmfoto 2020-01-14 um 20.06.21.png "Reminder")
 	
 Diese Checkliste kann nun mit beliebig vielen Erinnerungen verknüpft werden und wird angezeigt, wenn die Erinnerung eintritt.
 
