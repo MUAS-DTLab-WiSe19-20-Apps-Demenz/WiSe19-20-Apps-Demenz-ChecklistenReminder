@@ -1,5 +1,5 @@
+<mat-checkbox *ngIf="!checklist.editing" [checked]="entry.isChecked"></mat-checkbox>
 <ng-container *ngIf="!checklist.editing"> {{entry.description}}</ng-container>
 <input *ngIf="checklist.editing" [(ngModel)]="entry.description" />
-<mat-checkbox *ngIf="!checklist.editing" [checked]="entry.isChecked"></mat-checkbox>
 <button *ngIf="checklist.editing" mat-icon-button class="material-icons" (click)="deleteEntry()">delete</button>
 <br>

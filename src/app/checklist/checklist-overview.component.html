@@ -1,4 +1,8 @@
 <div class="overviewchecklist">
+  <button class="buttons inner-button"><span>Checklisten</span></button>
+  <br>
+  <br>
+  <br>
   <app-checklist *ngFor="let c of checklistService.getChecklists() | async" [checklist]="c"></app-checklist>
 </div>
 

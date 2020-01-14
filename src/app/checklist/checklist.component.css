@@ -3,7 +3,7 @@
 
   font-family: 'Open Sans', sans-serif;
   transition: all 0.2s ease-in-out;
-  font-size: 10px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #FFF;
 
@@ -31,7 +31,7 @@
   border: 2px solid #FFF;
   font-family: 'Open Sans', sans-serif;
   transition: all 0.2s ease-in-out;
-  font-size: 20px;
+  font-size: 35px;
   text-transform: uppercase;
   color: #FFF;
   letter-spacing: 2px;
@@ -50,7 +50,7 @@
   border: 2px solid #FFF;
   font-family: 'Open Sans', sans-serif;
   transition: all 0.2s ease-in-out;
-  font-size: 25px;
+  font-size: 35px;
   text-transform: uppercase;
   color: #FFF;
   letter-spacing: 2px;
