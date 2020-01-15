@@ -1,16 +1,28 @@
-### ChecklistenReminder
+## ChecklistenReminder
 
 ![App Uebersicht](src/Bildschirmfoto 2020-01-14 um 20.05.26.png "Übersicht")
 
+### Idee
 
-Diese Angular Anwendung ist für demenzerkrankte Personen entworfen. Ziel dieser App ist es, vorgefertigte Checklisten zu speichern und diese dann mit Remindern zu verknüpfen. Dies soll es Demenzerkrankten oder Beteiligten ermöglichen, oft wiederholte Tätigkeiten im Voraus zu speichern und bei bestimmten Aktivitäten aufzurufen. 
+##### Problemstellung
+
+Alzheimer-Patienten haben das Problem, dass sie wichtige Sachen vergessen. Vor allem wenn es darum geht z.B. von Zuhause entfernt zu sein kommt es oft zu Unsicherheiten.
+
+##### Lösungsansatz
+
+Wir haben uns überlegt, dass eine Anwendung die nicht nur Reminder anbietet, sondern auch eine Art Gedächtnisstütze - in Form von persistenten Checklisten - dabei helfen kann wenn solche Unsicherheiten aufkommen.
+
+Diese Checklisten sollen automatisch Orts- oder Zeit- (Reminder) gebunden angezeigt werden.  
+
+Ziel dieser App ist es, vorgefertigte Checklisten zu speichern und diese dann mit Remindern zu verknüpfen. Dies soll es Demenzerkrankten oder Beteiligten ermöglichen, oft wiederholte Tätigkeiten im Voraus zu speichern und bei bestimmten Aktivitäten aufzurufen. 
 Beispielsweise die Routine des Verlassens des Hauses.
 
 * **Küchengeräte abstellen**
 * **Fenster schließen**
 * **Schlüssel einpacken**
 * **Geldbeutel mitnehmen**
-	...
+
+  **...**
 	
 Ein Reminder für den Arztbesuch:
 * **Versichertenkarte mitnehmen**
@@ -54,10 +66,18 @@ Im Browser wird localhost:4200/ aufgerufen.
 
 * [AngularCLI](https://cli.angular.io/) - The web framework used
 
+## FAQ
+
+* Wieviel kostet die Anwendung? 
+
+  Nichts.
+  
+* Wie wird man von der Anwendung benachrichtigt?
+
+  Die Anwendung soll Sie auf verschiedene Arten über ihr Smartphone visuell, akustisch oder haptisch benachrichtigen können.
 ## Authors
 
 * ** Viet Phuoc Ho**
-* ** Benjamin  Hartwig**
 * ** Fabian Diener**
 * ** Johannes Jaeger**
 * ** Leonard Maier**
