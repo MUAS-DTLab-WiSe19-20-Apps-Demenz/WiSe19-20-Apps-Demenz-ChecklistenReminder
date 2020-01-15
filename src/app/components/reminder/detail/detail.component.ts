@@ -13,7 +13,7 @@ export class DetailComponent implements OnInit {
 
   reminder : Reminder;
   
-  constructor(public reminderService : ReminderService, private route : ActivatedRoute) { 
+  constructor(public reminderService : ReminderService, private route : ActivatedRoute,  private router : Router) { 
     let id = route.snapshot.params['id'];
     reminderService.getReminderList().subscribe(reminders => {
       reminders.forEach(reminder => {
@@ -22,6 +22,11 @@ export class DetailComponent implements OnInit {
         }
       });
     })
+  }
+
+  delete() {
+    this.reminderService.removeReminder(this.reminder);
+    this.router.navigate(['/', 'Erinnerungen']);
   }
 
   ngOnInit() {
