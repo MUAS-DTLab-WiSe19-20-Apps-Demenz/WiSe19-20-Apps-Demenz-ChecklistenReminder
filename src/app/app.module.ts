@@ -14,10 +14,12 @@ import { ChecklistEntryComponent } from './checklist-entry/checklist-entry.compo
 import {MatButtonModule, MatCheckboxModule, MatIconModule, MatInputModule} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms';
+import { ErstellenComponent } from './components/reminder/erstellen/erstellen.component';
 
 const appRoutes: Routes = [
   { path: 'Erinnerungen', component: ReminderComponent },
   { path: 'Erinnerungen/Detail/:id', component: DetailComponent },
+  { path: 'Erinnerungen/Erstellen', component: ErstellenComponent },
   { path: 'Checklisten', component: ChecklistOverviewComponent },
   // { path: 'Notfallkontakte', component: EmergencyContactsComponent },
   { path: 'MainMenu', component: MainMenuComponent},
@@ -36,7 +38,8 @@ const appRoutes: Routes = [
     ReminderComponentComponent,
     DetailComponent,
     ChecklistComponent,
-    ChecklistEntryComponent
+    ChecklistEntryComponent,
+    ErstellenComponent
   ],
   imports: [
     BrowserModule,
