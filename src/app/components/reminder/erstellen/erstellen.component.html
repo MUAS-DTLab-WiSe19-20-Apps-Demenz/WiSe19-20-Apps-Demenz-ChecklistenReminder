@@ -1,1 +1,14 @@
-<p>erstellen works!</p>
+
+<div class="button-wrapper">
+    <button class="buttons inner-button"><span>Erinnerung Erstellen</span></button>
+</div>
+
+<div class="reminder-div">
+    <h1>{{reminder.title}}</h1>
+    <hr />
+    <p>{{reminder.description}}</p>
+    <hr />
+    <p>{{reminder.location}}</p>
+    <hr />
+    <p>{{reminder.date | date:'dd.MM.yyyy - hh:mm'}}</p>
+</div>
