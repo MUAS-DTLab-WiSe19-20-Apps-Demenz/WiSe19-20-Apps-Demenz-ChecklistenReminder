@@ -1,14 +1,11 @@
-
-
-<a routerLink="/Erinnerungen/Detail/{{reminder.id}}">
-    <button class="reminder-preview-button">
-        <div class="reminder-preview-button-reminder">
+<button class="reminder-preview-button">
+    <a routerLink="/Erinnerungen/Detail/{{reminder.id}}">
+            <div class="reminder-preview-button-reminder">
             <h2>{{reminder.title}}</h2>
             <p>{{reminder.date | date:'dd.MM.yyyy - hh:mm'}}</p>
-        </div>
-        <div class="reminder-preview-button-box">
-          <mat-checkbox ></mat-checkbox>
-        </div>
-    </button>
-</a>
-
+    	</div>
+    </a>
+    <div class="reminder-preview-button-box">
+        <mat-checkbox ></mat-checkbox>
+    </div>
+</button>
